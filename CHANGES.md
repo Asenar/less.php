@@ -1,3 +1,10 @@
+# dev…
+- [All Changes](https://github.com/wikimedia/less.php/compare/v1.8.0...Asenar:develop)
+- Restored asenar/less.php as name in composer.json
+- Converted dos formatted file to unix format
+- Fixed error message from parser ( @ggnzlp)
+- Fixed error when `sourceMapBasepath` option is missing ( @schliflo ) 
+
 # 1.8.0
 - [All Changes](https://github.com/Asenar/less.php/compare/v1.7.0.13...v1.8.0)
 - Wikimedia fork
