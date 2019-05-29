@@ -31,6 +31,7 @@ class Less_Parser{
 		'cache_callback_set'	=> null,
 
 		'sourceMap'				=> false,			// whether to output a source map
+		'sourceMapRootpath'     => null,
 		'sourceMapBasepath'		=> null,
 		'sourceMapWriteTo'		=> null,
 		'sourceMapURL'			=> null,
@@ -180,6 +181,10 @@ class Less_Parser{
 	 * @return string
 	 */
 	public function getCss(){
+
+        //echo "options";
+            //print_r(Less_Parser::$options);
+            //die();
 
 		$precision = ini_get('precision');
 		@ini_set('precision',16);

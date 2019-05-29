@@ -24,6 +24,11 @@ class Less_Tree_Javascript extends Less_Tree{
 	}
 
 	public function compile(){
+        echo $this->escaped.PHP_EOL;
+        echo $this->expression.PHP_EOL;
+        echo $this->index.PHP_EOL;
+        
+        die("This is javascript in css -_-");
 		return new Less_Tree_Anonymous('/* Sorry, can not do JavaScript evaluation in PHP... :( */');
 	}
 

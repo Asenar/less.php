@@ -93,7 +93,21 @@ EOD;
 			case 'include-path':
 				$env['import_dirs'] = preg_split('#;|\:#', $value);
 				break;
-
+            case 'source-map':
+                $env['sourceMap'] = $value;
+                break;
+            case 'source-map-base-path':
+                $env['sourceMapBasepath'] = $value;
+                break;
+            case 'source-map-root-path':
+                $env['sourceMapRootpath'] = $value;
+                break;
+            case 'source-map-write-to':
+                $env['sourceMapWriteTo'] = $value;
+                break;
+            case 'source-map-url':
+                $env['sourceMapURL'] = $value;
+                break;
 		}
 	}
 }
